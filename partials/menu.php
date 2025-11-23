@@ -37,12 +37,12 @@ if ($page != 'under-maintenance.php' &&
     
     include 'topbar.php';
     include 'sidebar.php';
-    include 'horizontal-sidebar.php';
-    include 'twocolumn-sidebar.php';
-    include 'stacked-sidebar.php';
+    // include 'horizontal-sidebar.php';
+    // include 'twocolumn-sidebar.php';
+    // include 'stacked-sidebar.php';
 }
 
 // Include job header for specific job-related pages
 if ($page === 'job-grid-2.php' || $page === 'job-list-2.php' || $page === 'job-details.php') {
-    include 'job-header.php';
+    // include 'job-header.php';
 }
