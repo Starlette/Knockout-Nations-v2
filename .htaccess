@@ -1,6 +1,10 @@
 RewriteEngine On
 
-# Redirect /src/assets/* to /assets/*
+# Load index.php when hitting the root URL
+DirectoryIndex index.php
+RewriteRule ^$ index.php [L]
+
+# Redirect /src/assets/* → /assets/*
 RewriteRule ^src/assets/(.*)$ assets/$1 [L]
 
 # Rewrite any PHP file to look in src/ folder (if not already in src/)
