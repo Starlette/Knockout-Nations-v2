@@ -15,7 +15,7 @@ if($link === false){
 
 /* Gmail SMTP credentials */
 $gmailid = 'knockoutnationselite@gmail.com';
-$gmailpassword = 'Domenico7!'; // App password for Gmail SMTP : moyv xjxf uivr hhcg 
+$gmailpassword = 'moyv xjxf uivr hhcg'; // App password
 $gmailusername = 'knockoutnationselite';
 
 ?>
